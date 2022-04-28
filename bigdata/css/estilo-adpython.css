@@ -1,0 +1,93 @@
+.page-title h1 {
+	color: #f39c12;
+}
+.page-title h2 {
+	color: rgb(0, 120, 183);	
+}
+
+section h2 {
+	color: rgb(0, 120, 183);	
+}
+
+.subsection {
+	padding-bottom: 21px;
+	margin-bottom: 21px;
+	border-bottom: 1px solid #464545;
+}
+
+.section-content {
+	border-left: 5px solid #464545;
+	padding: 10.5px 0 10.5px 21px;
+	font-size: 18.75px;
+	text-align: justify;
+}
+
+.section-content h3 {
+	margin: 0 0 0.5em 0;
+}
+
+th,td {
+	text-align: center;
+}
+
+footer {
+	padding-top: 21px;
+	margin-top: 21px;
+	border-top: 1px solid #464545;	
+}
+
+ul, ol {
+	padding-left: 1em;
+}
+
+/*
+	Max width before this PARTICULAR table gets nasty
+	This query will take effect for any screen smaller than 760px
+	and also iPads specifically.
+
+	https://css-tricks.com/examples/ResponsiveTables/responsive.php
+*/
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+
+	th,td {
+		text-align: left;
+	}
+
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	tr { border: 1px solid #ccc; }
+
+	td {
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+	}
+
+	td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	
+	td:nth-of-type(4):after { content: " plazas"; }
+}
+

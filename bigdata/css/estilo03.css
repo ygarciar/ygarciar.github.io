@@ -1,0 +1,40 @@
+    @-ms-viewport       { width: device-width; }
+
+img[width],
+img[height] {
+    max-width: none;
+}
+
+    .three-columns4 {
+        margin: 20px;
+        margin: 2rem;
+    }
+    .center-div4 {
+        margin: 0 auto;
+        width: 90%;
+        
+    }
+    .imagen-fondo {
+        margin: 0 auto;
+        width: 90%;
+        background: url("../imagenes/CIMG0006rec.jpg");        
+    }
+
+    .dimensiones {
+        margin: 0 auto;
+        width: 60%;
+        border-style:  hidden groove hidden groove;
+    }
+    .myborder {
+        border-style: groove;
+    }
+
+    .header-content {
+        padding: 1em;
+    }
+    .footer-content {
+        padding: 1em 0em 1em 0em;
+    }
+    .texto-justificado {
+        text-align:justify;
+    }
