@@ -1,0 +1,57 @@
+
+
+    * {
+        box-sizing: border-box;
+        font-family: laChatteaMaman;
+        width: 75%;
+        margin: 0;
+        padding: 0;
+          }
+    html {
+        font-size: 62.5%;
+        line-height: 1;
+    }
+    p {
+        font-size: 15px;
+        font-size: 1.5rem;
+        line-height: 1.333333334;
+        margin-bottom: 20px;
+        margin-bottom: 2rem;
+        text-align: justify;
+    }
+    /*---------------------------------*/
+    /*cuando el raton pasa or un enlace*/
+    a:hover {
+        color: gray;
+    }
+    /*cuando la página está visitada */
+    a:visited {
+        color: silver;
+    }
+    /*cuando la página no se ha visitado*/
+    a:link {
+        color: blue;
+    }
+    /*-----------------------------------*/
+    h1 {
+        font-family: Georgia, serif;
+        font-size: 1.5em;        /* 24px / 16px = 1.5em */
+    }
+
+    h1.cabecera {
+        color: white;
+        text-align: left;
+        background-color:blue;
+    }
+    .three-columns {
+        margin: 20px;
+        margin: 2rem;
+    }
+    .center-div {
+        margin: 0 auto;
+        width: 75%;
+        background-color: #ccc;
+    }
+
+ 
+    
