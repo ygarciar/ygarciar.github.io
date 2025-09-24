@@ -1,0 +1,101 @@
+---
+title: "Procesamiento de datos masivos con R y RStudio"
+author: "Yolanda García Ruiz  - ygarciar@ucm.es"
+date: "`r format(Sys.Date(), '%d/%m/%Y')`"
+output:
+  html_document: 
+    css: ../style.css
+    number_sections: true
+  pdf_document: default
+  word_document: default
+---
+
+# Tabla de contenidos
+
+## Tema 1
+
+1.  [Introducción a R y RStudio](inicioRRStudio.html)
+
+2.  [Gestión de paquetes](paquetes.html "paquetes.html")
+
+3.  [Elementos básicos del lenguaje](elementos_basicos.html "elementos_basicos.Rmd") (Script [elementos_basicos.R](../R_Scripts/elementos_basicos.R))
+
+4.  [Funciones de usuario](funciones_1.html "funciones_1.Rmd") (Script [funciones_1.R](../R_Scripts/funciones_1.R))
+
+### Ejercicios tema 1
+
+-   [Tarea 1](ejercicios/ej_inicial.html "ejercicios/ej_inicial.html")
+
+## Tema 2
+
+1.  [Estructuras de datos](estructuras_datos.html "estructuras_datos.Rmd") (Script [estructuras_datos.R](../R_Scripts/estructuras_datos.R))
+
+2.  [Cadenas de caracteres - stringr](strings.html) (Script [strings.R](../R_Scripts/strings.R))
+
+3.  Cheat sheets:
+
+    -   R Base: [base-r-cheat-sheet.pdf](../CheatSheets/base-r-cheat-sheet.pdf)
+
+    -   Biblioteca stringr: [strings_es.pdf](../CheatSheets/strings_es.pdf)
+
+### Ejercicios tema 2
+
+-   [Tarea 2](ejercicios/ej_tipos_estructurados.html)
+
+## Tema 3
+
+1.  [Importación y exportación de datos](import_export.html) (Script [import_export.R](../R_Scripts/import_export.R) )
+
+2.  [Dataframes y tibbles](tibbles.html) (Script [tibbles.R](../R_Scripts/tibbles.R))
+
+3.  Cheat sheets:
+
+    -   Dplyr: [data-wrangling-cheatsheet.pdf](../CheatSheets/data-wrangling-cheatsheet.pdf)
+
+    -   Import/Export: [data-import.pdf](../CheatSheets/data-import.pdf)
+
+### Ejercicios tema 3
+
+-   [Tarea 3. Multas de tráfico](ejercicios/ej_tibbles_mul.html)
+
+## Tema 4
+
+1.  [Manipulación de fechas](fechas.html) (Script [fechas.R](../R_Scripts/fechas.R))
+
+2.  [Combinación de dataframes](merge.html) (Script [merge.R](../R_Scripts/merge.R))
+
+3.  [La librería purrr y las funciones map](map_purrr.html) (Script [map_purrr.R](../R_Scripts/map_purrr.R))
+
+4.  [Limpieza de datos (duplicados, outliers, missing)](nas.html) (Script [nas.R](../R_Scripts/nas.R))
+
+### Ejercicios tema 4
+
+-   [Tarea 4. Accidentes de tráfico](ejercicios/ej_tibbles_acc.html)
+
+## Tema 5
+
+1.  [Visualización con GGplot2](ggplo2_200.html) (Script [ggplot.R](../R_Scripts/ggplot.R))
+
+### Ejercicios tema 5
+
+-   [Tarea 5.](ejercicios/ej_plots.html) Visualización
+
+```{=html}
+<!--
+
+## Tema 6
+
+1.  [Regresión lineal](regresion_lineal.html) (Script [regresion_lineal.R](../R_Scripts/regresion_lineal.R))
+
+2.  [Introducción al Aprendizaje Automático](ml_intro.html)
+
+3.  [Preparación de los datos](ml_preprocess.html)
+
+4.  [Aprendizaje Supervisado. Arboles de decisión](ml_decision_trees.html) (Script [ml_decision_trees.R](../R_Scripts/ml_decision_trees.R))
+
+5.  [Aprendizaje no supervisado. Clústering con K-means](ml_kmeans.html) (Script [ml_kmeans.R](../R_Scripts/ml_kmeans.R)[.R](../R_Scripts/decision_trees.R))
+
+
+
+-->
+```
